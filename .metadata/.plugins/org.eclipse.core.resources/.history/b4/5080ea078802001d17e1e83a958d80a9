@@ -1,0 +1,5 @@
+package com.example.sbsecurity.service;
+
+public class UserDetailsServiceImpl {
+
+}

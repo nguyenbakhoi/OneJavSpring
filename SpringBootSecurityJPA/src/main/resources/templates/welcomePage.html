@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title th:utext="${title}"></title>
+</head>
+<body>
+
+	<!-- Include_menu.html -->
+	<th:block th:include="/_menu"></th:block>
+	
+	<h2>Message : <sapn th:utext="${message}"></sapn></h2>
+</body>
+</html>
